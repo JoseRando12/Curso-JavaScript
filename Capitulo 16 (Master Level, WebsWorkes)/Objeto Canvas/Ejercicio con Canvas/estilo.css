@@ -1,0 +1,29 @@
+
+body, div {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: #ededed;
+}
+
+canvas {
+   border: 1px solid #000;
+}
+
+.editor {
+   background: #fff;
+   width: fit-content;
+   margin: auto;
+   margin-top: 50px;
+}
+
+#lw {
+   width: 430px;
+}
+
+#color {
+   width: 60;
+}

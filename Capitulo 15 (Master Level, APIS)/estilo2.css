@@ -1,0 +1,51 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.zona-arrastre,.barra-de-carga {
+    padding: 60px 20px;
+    border: 4px dashed #888;
+    max-width: 500px;
+    color: #888;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.barra-de-carga {
+    position: absolute;
+    width: 0;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    padding: 0;
+    z-index: 0;
+    border: none;
+    background: #def;
+    transition: width 0.2s, background 0.5s;
+}
+
+.resultado {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 400px;
+    margin: auto;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

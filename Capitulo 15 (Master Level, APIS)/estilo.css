@@ -1,0 +1,155 @@
+body {
+    color: #222;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*.reloj {
+    background: linear-gradient(#111,#777);
+    border: 1px solid black;
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+.reloj div {
+    color: #fff;
+    padding: 5px 7px;
+    font-size: 20px;
+    font-family: monospace;
+    border: 1px solid #000;
+}
+
+.modal-overlay {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    opacity: 0;
+    animation: aparecer 1s forwards;
+}
+
+.modal {
+    background: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+
+button {
+    padding: 9px 20px;
+    border: none;
+    margin: 3px 9px;
+    background: #ddd;
+}
+button:hover {
+    background: #ccc;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes desaparecer {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} */
+
+/* .rectangulo {
+    padding: 100px 200px;
+    background: #ccc;
+    margin: 50px;
+    outline: 6px dashed #aaa;
+}
+.circulo {
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    background: #f00;
+    display: inline-block;
+} */
+
+/*
+.texturas {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.texturas div {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+    user-select: all;
+}
+
+.texturas div:active {
+    opacity: 0.55;
+}
+
+.textura1 {
+    background: url("textura1.png");
+}
+
+.textura2 {
+    background: url("textura2.png");
+}
+
+.textura3 {
+    background: url("textura3.png");
+}
+
+.zona {
+    margin: 10px;
+    background: #ddd;
+    height: 200px;
+}
+*/
+
+/*img {
+    width: 300px;
+}
+*/
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resultado {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 6px;
+}
+
+img:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+img:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+img:nth-child(6) {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+img:first-child(10) {
+    grid-row: span 2;
+}
